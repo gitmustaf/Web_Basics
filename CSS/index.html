@@ -6,15 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basics of CSS</title>
 </head>
-<body>
-    <h2 style="color: brown;">CatPhotoApp</h2>
-    <main>
-        <p>Click here to view more <a href="#">cat photos</a>.</p>
+<style>
+    .blue-text {
+        color: cadetblue;
+    }
 
-        <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cat's image" /></a>
+    p {
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    h2 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .smaller-image {
+        width: 100px;
+    }
+
+    .green-border {
+        border-color: greenyellow;
+        border-width: 5px;
+        border-style: solid;
+        border-radius: 10px;
+    }
+</style>
+<body>
+    <h2 style="color: rgb(189, 183, 183);">CatPhotoApp</h2>
+    <main>
+        <p class="blue-text">Click here to view more <a href="#">cat photos</a>.</p>
+
+        <a href="#"><img class="smaller-image green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cat's image" /></a>
         
         <div>
-            <p>Things cats love :</p>
+            <p class="blue-text">Things cats love :</p>
             <ul>
                 <li>milk</li>
                 <li>fish</li>
