@@ -18,6 +18,7 @@
 
     h2 {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: grey;
     }
 
     .smaller-image {
@@ -30,6 +31,15 @@
         border-style: solid;
         border-radius: 10px;
     }
+
+    .grey-background {
+        background-color: lightslategrey;
+    }
+
+    #ul_list {
+        background-color: limegreen;
+    }
+
 </style>
 <body>
     <h2 style="color: rgb(189, 183, 183);">CatPhotoApp</h2>
@@ -38,9 +48,9 @@
 
         <a href="#"><img class="smaller-image green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cat's image" /></a>
         
-        <div>
-            <p class="blue-text">Things cats love :</p>
-            <ul>
+        <div class="grey-background" >
+            <p class="">Things cats love :</p>
+            <ul id="ul_list">
                 <li>milk</li>
                 <li>fish</li>
                 <li>sleep</li>
